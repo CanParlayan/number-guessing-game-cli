@@ -1,4 +1,4 @@
-# Number Guessing Game CLI  
+# [Number Guessing Game CLI](https://roadmap.sh/projects/number-guessing-game)
 
 🎮 A fun command-line number guessing game where you try to guess a secret number between 1 and 100!  
 
