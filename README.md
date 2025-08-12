@@ -17,31 +17,35 @@ A CLI-based game where:
 ### Sample Gameplay  
 
 ```
-Welcome to the Number Guessing Game!  
-I'm thinking of a number between 1 and 100.  
-You have 5 chances to guess the correct number.  
+Welcome to the Number Guessing Game!
 
-Please select the difficulty level:  
-1. Easy (10 chances)  
-2. Medium (5 chances)  
-3. Hard (3 chances)  
+Please select a difficulty level:
+1. Easy (10 chances)
+2. Medium (5 chances)
+3. Hard (3 chances)
 
-Enter your choice: 2  
+Enter your choice (1-3): 3
 
-Great! You have selected the Medium difficulty level.  
-Let's start the game!  
+Great! You have selected the Hard difficulty level.
+You have 3 chances to guess the correct number.
+Let's start the game!
 
-Enter your guess: 50  
-Incorrect! The number is less than 50.  
+I'm thinking of a number between 1 and 100.
+Enter your guess (1-100): 5
+The number is greater than 5. Try again!
+You have 2 chances left.
 
-Enter your guess: 25  
-Incorrect! The number is greater than 25.  
+Enter your guess (1-100): 10
+This is your last chance!
+Lower!
+The number is less than 10. Try again!
+You have 1 chances left.
 
-Enter your guess: 35  
-Incorrect! The number is less than 35.  
-
-Enter your guess: 30  
-Congratulations! You guessed the correct number in 4 attempts.  
+Enter your guess (1-100): 8
+Time taken: 12.72 seconds
+Congratulations! You guessed the correct number in 3 attempts.
+High score for Hard difficulty: 2 attempts in 3.13 seconds.
+Do you want to play again? (y/n):
 ```
 
 ---
