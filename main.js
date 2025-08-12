@@ -16,7 +16,6 @@ function startGame() {
     const difficulty = values[1];
     const firstChancesValue = chances; // Store initial chances for high score tracking
     const randomNumber = generateRandomNumber();
-    console.log(randomNumber); // For debugging purposes, remove in production
     let startTime = startTimer();
     console.log("I'm thinking of a number between 1 and 100.");
     while (chances > 0) {
