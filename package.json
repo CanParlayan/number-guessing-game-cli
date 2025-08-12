@@ -1,0 +1,13 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "private": true,
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
